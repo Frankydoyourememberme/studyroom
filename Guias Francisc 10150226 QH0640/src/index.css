@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* max-width: 1366px; */
+  
+}
+
+  /* setting max width to laptop-screen 1366 px */
+  @media screen and (min-width: 1367px) {
+    body{
+      margin-left: 200px !important;
+      margin-right: 200px !important;
+    }
+  }
+
+  * {
+    font-family: "Heebo", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+  }
+  
